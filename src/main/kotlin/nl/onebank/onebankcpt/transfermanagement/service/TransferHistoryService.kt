@@ -1,6 +1,6 @@
-package com.onebank.obcpt.service
+package nl.onebank.onebankcpt.transfermanagement.service
 
-import nl.onebank.onebankcpt.repository.TransferHistoryRepository
+import nl.onebank.onebankcpt.transfermanagement.repository.TransferHistoryRepository
 import org.springframework.stereotype.Service
 
 @Service

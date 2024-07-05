@@ -1,9 +1,9 @@
-package nl.onebank.onebankcpt.controller
+package nl.onebank.onebankcpt.transfermanagement.controller
 
-import nl.onebank.onebankcpt.producers.TransferProducer
 import nl.onebank.dto.TransferDto
-import nl.onebank.onebankcpt.entity.Transfer
-import nl.onebank.onebankcpt.service.TransferService
+import nl.onebank.onebankcpt.accountmanagement.entity.Transfer
+import nl.onebank.onebankcpt.transfermanagement.producer.TransferProducer
+import nl.onebank.onebankcpt.transfermanagement.service.TransferService
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RestController

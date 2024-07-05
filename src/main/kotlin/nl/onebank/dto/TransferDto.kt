@@ -1,6 +1,6 @@
 package nl.onebank.dto
 
-import nl.onebank.onebankcpt.entity.Transfer
+import nl.onebank.onebankcpt.accountmanagement.entity.Transfer
 import java.util.*
 
 data class TransferDto (val senderIBAN:String, val receiverIBAN:String, val amount:Double)

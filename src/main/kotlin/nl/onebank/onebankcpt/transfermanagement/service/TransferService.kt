@@ -1,8 +1,8 @@
-package nl.onebank.onebankcpt.service
+package nl.onebank.onebankcpt.transfermanagement.service
 
 import nl.onebank.dto.TransferDto
-import nl.onebank.onebankcpt.entity.Transfer
-import nl.onebank.onebankcpt.repository.TransferRepository
+import nl.onebank.onebankcpt.accountmanagement.entity.Transfer
+import nl.onebank.onebankcpt.transfermanagement.repository.TransferRepository
 import org.springframework.stereotype.Service
 
 @Service

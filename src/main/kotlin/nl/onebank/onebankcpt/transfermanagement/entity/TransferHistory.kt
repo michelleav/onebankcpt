@@ -1,4 +1,4 @@
-package nl.onebank.onebankcpt.entity
+package nl.onebank.onebankcpt.accountmanagement.entity
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue

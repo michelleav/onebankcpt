@@ -1,6 +1,6 @@
-package nl.onebank.onebankcpt.repository
+package nl.onebank.onebankcpt.transfermanagement.repository
 
-import nl.onebank.onebankcpt.entity.TransferHistory
+import nl.onebank.onebankcpt.accountmanagement.entity.TransferHistory
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
