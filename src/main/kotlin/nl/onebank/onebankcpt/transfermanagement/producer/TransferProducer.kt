@@ -14,6 +14,6 @@ class TransferProducer(
 
     fun sendTransferDtoMessage(dto: TransferDto) {
         transferDtoKafkaTemplate.send(TRANSFER_TOPIC, dto)
-        logger.info("Message sent: [$dto]")
+        logger.info("Message sent to TRANSFER_TOPIC : [$dto]")
     }
 }
